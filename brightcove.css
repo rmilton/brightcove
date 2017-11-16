@@ -1,6 +1,6 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-/*.video-js .vjs-dock-text {
+.video-js .vjs-dock-text {
     padding: 20% 20% 2em 20%;
     background: linear-gradient(to top,rgba(0,0,0,1) 0,rgba(0,0,0,.9) 50%,rgba(0,0,0,.7) 70%,transparent 100%);
     font-family: 'Open Sans';
@@ -13,20 +13,30 @@
 
 .video-js .vjs-dock-shelf, .video-js .vjs-dock-text {
     top: inherit;
-    bottom: 25px;
+    bottom: 0;
 }
 
 .vjs-big-play-button {
     background-color: transparent;
+    left: 13%;
+    margin-top: -.6em;
 }
 
-.vjs-dock-title:before {
+/*button*/
+.vjs-icon-play:before {
+    content: url("http://frontend.coned.sandbox5.cliquedomains.com/images/icon-video-play.svg");
+}
+.vjs-big-play-button {
+    background-color: transparent;
+}
+
+/*.vjs-dock-title:before {
     position: absolute;
     content: url("http://frontend.coned.sandbox5.cliquedomains.com/images/icon-video-play.svg");
     left: 10%;
-    padding-top: 4px;
+    padding-top: 4px;*/
 }
 
-.vjs-big-play-button {
+/*.vjs-big-play-button {
     visibility: hidden;
 }*/
