@@ -10,6 +10,9 @@
     white-space: pre-wrap;
     font-size: 20px;
 }
+.vjs-dock-description {
+    display: none;
+}
 
 .video-js .vjs-dock-shelf, .video-js .vjs-dock-text {
     top: inherit;
