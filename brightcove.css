@@ -1,14 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
 .video-js .vjs-dock-text {
     padding: 20% 20% 1em 20%;
     background: linear-gradient(to top,rgba(0,0,0,1) 0,rgba(0,0,0,.9) 50%,rgba(0,0,0,.7) 70%,transparent 100%);
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
 }
 
 .video-js .vjs-dock-title {
     white-space: pre-wrap;
-    font-size: 20px;
+    font-size: 18px;
 }
 .vjs-dock-description {
     display: none;
@@ -21,26 +19,15 @@
 
 .vjs-big-play-button {
     background-color: transparent;
-    left: 13%;
-    top: 69%;
-    margin-top: -.6em;
+    left: 13% !important;
+    top: 69% !important;
+    margin-top: -.6em!important;
 }
 
 /*button*/
-.vjs-icon-play:before {
-    content: url("http://frontend.coned.sandbox5.cliquedomains.com/images/icon-video-play.svg");
+.vjs-icon-play:before, .video-js .vjs-big-play-button .vjs-icon-placeholder:before, .video-js .vjs-play-control .vjs-icon-placeholder:before {
+    content: url("http://frontend.coned.sandbox5.cliquedomains.com/images/icon-video-play.svg") !important;
 }
 .vjs-big-play-button {
     background-color: transparent;
 }
-
-/*.vjs-dock-title:before {
-    position: absolute;
-    content: url("http://frontend.coned.sandbox5.cliquedomains.com/images/icon-video-play.svg");
-    left: 10%;
-    padding-top: 4px;*/
-}
-
-/*.vjs-big-play-button {
-    visibility: hidden;
-}*/
