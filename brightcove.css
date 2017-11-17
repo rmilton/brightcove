@@ -28,7 +28,9 @@
 .vjs-icon-play:before, .video-js .vjs-big-play-button .vjs-icon-placeholder:before, .video-js .vjs-play-control .vjs-icon-placeholder:before {
     content: url("http://frontend.coned.sandbox5.cliquedomains.com/images/icon-video-play.svg") !important;
 }
-
+.vjs-icon-pause:before, .video-js .vjs-play-control.vjs-playing .vjs-icon-placeholder:before {
+    content: "\f103" !important;
+}
 .vjs-big-play-button {
     background-color: transparent;
 }
