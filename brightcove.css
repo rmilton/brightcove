@@ -20,14 +20,15 @@
 .vjs-big-play-button {
     background-color: transparent;
     left: 13% !important;
-    top: 69% !important;
-    margin-top: -.6em!important;
+    top: inherit !important;
+    margin-top: -.6em !important;
+    bottom: -2px !important;
 }
 
-/*button*/
 .vjs-icon-play:before, .video-js .vjs-big-play-button .vjs-icon-placeholder:before, .video-js .vjs-play-control .vjs-icon-placeholder:before {
     content: url("http://frontend.coned.sandbox5.cliquedomains.com/images/icon-video-play.svg") !important;
 }
+
 .vjs-big-play-button {
     background-color: transparent;
 }
