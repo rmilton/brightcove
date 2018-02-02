@@ -35,6 +35,6 @@
     background-color: transparent;
 }
 
-.video-js .vjs-has-started .vjs-dock-text {
+.vjs-has-started .vjs-dock-text {
     opacity: 0;
 }
