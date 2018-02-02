@@ -34,3 +34,7 @@
 .vjs-big-play-button {
     background-color: transparent;
 }
+
+.video-js .vjs-has-started .vjs-dock-text {
+    opacity: 0;
+}
