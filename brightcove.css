@@ -1,7 +1,12 @@
-.video-js .vjs-dock-text {
+.small-tile .video-js .vjs-dock-text {
     padding: 20% 20% 1em 20%;
-    background: linear-gradient(to top,rgba(0,0,0,1) 0,rgba(0,0,0,.9) 50%,rgba(0,0,0,.7) 70%,transparent 100%);
-    font-family: 'Open Sans',sans-serif;
+    background: linear-gradient(to top, #333333 15%, rgba(51,51,51,0.9) 40%, rgba(51,51,51,0.8) 65%, transparent 100%);
+    font-family: 'Open Sans', sans-serif;
+}
+.large-tile .video-js .vjs-dock-text {
+    padding: 20% 20% 1em 20%;
+    background: linear-gradient(to top, #333333 15%, rgba(51,51,51,0.9) 30%, rgba(51,51,51,0.8) 50%, transparent 100%);
+    font-family: 'Open Sans', sans-serif;
 }
 
 .video-js .vjs-dock-title {
